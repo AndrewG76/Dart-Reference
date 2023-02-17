@@ -1,0 +1,99 @@
+{
+   "checksum": "12f1f2e6433b25dd43e8ed05e1ec411c",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "children": [ {
+               "date_added": "13241752942898534",
+               "date_last_used": "0",
+               "guid": "6bd72891-ad6a-43fc-a1af-f4fb8abcaff1",
+               "id": "6",
+               "name": "Dell Auction",
+               "show_icon": false,
+               "source": "import_fre",
+               "type": "url",
+               "url": "http://www.dellauction.com/"
+            }, {
+               "date_added": "13241752942909233",
+               "date_last_used": "0",
+               "guid": "7006e0b0-8676-437e-a92f-1910103fe390",
+               "id": "7",
+               "name": "Dell",
+               "show_icon": false,
+               "source": "import_fre",
+               "type": "url",
+               "url": "http://www.dell.com/"
+            }, {
+               "date_added": "13241752942919511",
+               "date_last_used": "0",
+               "guid": "f178ef90-e4a1-4a83-8a69-761b01146be8",
+               "id": "8",
+               "name": "Support.Dell.Com",
+               "show_icon": false,
+               "source": "import_fre",
+               "type": "url",
+               "url": "http://www.dell.com/support/home"
+            }, {
+               "date_added": "13078534494551983",
+               "date_last_used": "0",
+               "guid": "e85978a5-4e27-4e30-a3ca-dc6148f4d86c",
+               "id": "9",
+               "name": "Dell Internet Security",
+               "show_icon": false,
+               "source": "import_fre",
+               "type": "url",
+               "url": "http://support.dell.com/support/topics/global.aspx/support/security/security?c=us&cs=19&l=en&s=dhs"
+            }, {
+               "date_added": "13179982915175682",
+               "date_last_used": "0",
+               "guid": "5cd816d7-0a04-4e34-a958-e4cf0c5faa0a",
+               "id": "10",
+               "name": "Support Dell Com",
+               "show_icon": false,
+               "source": "import_fre",
+               "type": "url",
+               "url": "http://support.dell.com/support/index.aspx?c=us&l=en&s=gen"
+            } ],
+            "date_added": "13319836981177123",
+            "date_last_used": "0",
+            "date_modified": "0",
+            "guid": "da8036fc-a590-49ee-835d-3d024d5a86e8",
+            "id": "5",
+            "name": "Dell",
+            "source": "import_fre",
+            "type": "folder"
+         } ],
+         "date_added": "13319836978204509",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Favorites bar",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13319836978204514",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other favorites",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13319836978204516",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile favorites",
+         "source": "unknown",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}
