@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)"
+options: "fb1f641447ca12b2ee25468fd440a21b49b89b4651b8b19e72dc3a7a02e97fd0"
+build_start_time: [1676849258, 615290164]
+build_end_time: [1676849264, 680310010]
+inputs:
+  "/Users/andrewgravino/Documents/CS4750_Code/reference/Dart-Reference/macos/Flutter/GeneratedPluginRegistrant.swift": [1676849246, 932956695]
+  "/Users/andrewgravino/Documents/CS4750_Code/reference/Dart-Reference/macos/Runner/AppDelegate.swift": [1676835893, 116233348]
+  "/Users/andrewgravino/Documents/CS4750_Code/reference/Dart-Reference/macos/Runner/MainFlutterWindow.swift": [1676835893, 118682861]

@@ -6,7 +6,7 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+  const MyApp({super.key}); //This is the global thing that all other pages rely on like color theme for example
 
   // This widget is the root of your application.
   @override
@@ -23,9 +23,9 @@ class MyApp extends StatelessWidget {
         // or simply save your changes to "hot reload" in a Flutter IDE).
         // Notice that the counter didn't reset back to zero; the application
         // is not restarted.
-        primarySwatch: Colors.green,
+        primarySwatch: Colors.brown,
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: const MyHomePage(title: '4750 Reach Demo Home Page'),
     );
   }
 }
@@ -48,7 +48,7 @@ class MyHomePage extends StatefulWidget {
   State<MyHomePage> createState() => _MyHomePageState();
 }
 
-class _MyHomePageState extends State<MyHomePage> {
+class _MyHomePageState extends State<MyHomePage> { //specifies UI actions and details
   int _counter = 0;
 
   void _incrementCounter() {
@@ -62,7 +62,7 @@ class _MyHomePageState extends State<MyHomePage> {
     });
   }
 
-  void _moveToNextPage(){
+  void _moveToNextPage(){ //USE THIS DUDE TO PULL UP TO THE NEXT PAGE YURRRR
     Navigator.push(
         context,
         MaterialPageRoute(builder: (context) => MySecondPage(title: 'My Page No. 2')),
@@ -70,15 +70,15 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context) { //this is where we specify UI related business on each screen
     // This method is rerun every time setState is called, for instance as done
     // by the _incrementCounter method above.
     //
     // The Flutter framework has been optimized to make rerunning build methods
     // fast, so that you can just rebuild anything that needs updating rather
     // than having to individually change instances of widgets.
-    return Scaffold(
-      appBar: AppBar(
+    return Scaffold( //Scaffolds are UI design patterns
+      appBar: AppBar( //this is the section where it says the title of "Flutter Demo Home Page" that we mentioned earlier
         // Here we take the value from the MyHomePage object that was created by
         // the App.build method, and use it to set our appbar title.
         title: Text(widget.title),
@@ -103,6 +103,9 @@ class _MyHomePageState extends State<MyHomePage> {
           // horizontal).
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
+            Text(
+              'got that mf dawg in me'
+            ),
             const Text(
               'You have pushed the button this many times on screen 1:',
             ),
@@ -113,7 +116,7 @@ class _MyHomePageState extends State<MyHomePage> {
           ],
         ),
       ),
-      floatingActionButton: Column(
+      floatingActionButton: Row(
         children: [
           FloatingActionButton(
             onPressed: _incrementCounter,

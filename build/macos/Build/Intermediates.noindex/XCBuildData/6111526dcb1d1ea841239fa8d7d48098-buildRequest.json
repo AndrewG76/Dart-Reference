@@ -1,0 +1,65 @@
+{
+  "_buildCommand2" : {
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildOnly"
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "18c1723432283e0cc55f10a6dcfd9e02a26d6e580d3222b86d62fb80ec380c14"
+    }
+  ],
+  "containerPath" : "/Users/andrewgravino/Documents/CS4750_Code/reference/Dart-Reference/macos/Runner.xcworkspace",
+  "continueBuildingAfterErrors" : false,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "macosx",
+      "sdk" : "macosx13.1",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "arm64e",
+        "arm64",
+        "x86_64"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/andrewgravino/Documents/CS4750_Code/reference/Dart-Reference/build/macos/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/andrewgravino/Documents/CS4750_Code/reference/Dart-Reference/build/macos/Build/Products",
+      "derivedDataPath" : "/Users/andrewgravino/Documents/CS4750_Code/reference/Dart-Reference/build/macos",
+      "indexDataStoreFolderPath" : "/Users/andrewgravino/Documents/CS4750_Code/reference/Dart-Reference/build/macos/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/andrewgravino/Documents/CS4750_Code/reference/Dart-Reference/build/macos/Index.noindex/PrecompiledHeaders",
+      "pchPath" : "/Users/andrewgravino/Documents/CS4750_Code/reference/Dart-Reference/build/macos/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "commandLine" : {
+        "table" : {
+          "COMPILER_INDEX_STORE_ENABLE" : "NO",
+          "OBJROOT" : "/Users/andrewgravino/Documents/CS4750_Code/reference/Dart-Reference/build/macos/Build/Intermediates.noindex",
+          "SYMROOT" : "/Users/andrewgravino/Documents/CS4750_Code/reference/Dart-Reference/build/macos/Build/Products"
+        }
+      },
+      "synthesized" : {
+        "table" : {
+          "ACTION" : "build",
+          "ENABLE_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}
