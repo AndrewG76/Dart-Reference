@@ -104,10 +104,10 @@ class _MyHomePageState extends State<MyHomePage> { //specifies UI actions and de
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Text(
-              'got that mf dawg in me'
+              'amongus sussy'
             ),
             const Text(
-              'You have pushed the button this many times on screen 1:',
+              'You have pushed the button this many times on screen 1 you sussy baka!!:',
             ),
             Text(
               '$_counter',
